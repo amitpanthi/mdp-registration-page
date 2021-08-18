@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="form">
+            <div class="heading">
+                <h1>Welcome to ABC!</h1>
+                <p>Please signup to continue</p>
+            </div>
+            <div class="form-input">
+                <div class="name-input">
+                    <div class="input-box">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname">
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="dob-input">
+                    <div class="input-box">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="input-box">
+                        <label for="email">Email ID</label>
+                        <input type="text" id="email" name="email">
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <label for="mobile-num">Mobile Number</label>
+                        <input type="text" id="mobile-num" name="mobile-num">
+                        <small></small>
+                    </div>
+                </div>
+                <div class="password-info">
+                    <div class="input-box">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" name="pass">
+                        <small></small>
+                    </div>
+                    <div class="input-box">
+                        <label for="pass-confirm">Confirm Password</label>
+                        <input type="password" id="pass-confirm" name="pass-confirm">
+                        <small></small>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="button">
+                    <button onclick=validate() class="ip-button">Submit</button>
+                </div>
+                <div class="button">
+                    <button class="ip-button">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/valid.js"></script>
+</body>
+</html>
